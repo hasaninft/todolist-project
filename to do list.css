@@ -1,0 +1,143 @@
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-list_box;
+            background-color: black
+        }
+        
+        .title_todo_list {
+            font-size: 58px;
+            text-align: center;
+            color: blanchedalmond;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        #container {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        #container .form {
+            display: flex;
+            width: 500px;
+            flex-direction: column;
+        }
+        
+        #container #list_box {
+            margin-top: -30px;
+            width: 500px;
+            height: max-content;
+            border-radius: 15px;
+        }
+        
+        #container #list_box .child_list_box span {
+            position: absolute;
+            display: inline;
+            top: 10px;
+            right: 50px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        #container #list_box .child_list_box h4 {
+            position: relative;
+            top: 10px;
+            left: -180px;
+        }
+        
+        .completed {
+            text-decoration: line-through;
+            text-shadow: cornsilk;
+        }
+        
+        .logo_delete img {
+            position: relative;
+            left: 126px;
+            top: -27px;
+            cursor: pointer;
+        }
+        
+        #input {
+            border-radius: 10px;
+            width: 81%;
+            height: 40px;
+            margin: auto;
+        }
+        
+        #search {
+            border-radius: 10px;
+            width: 98%;
+            height: 40px;
+            margin: auto;
+        }
+        
+        #button {
+            border-radius: 10px;
+            width: 80px;
+            height: 46px;
+            margin: auto;
+        }
+        
+        .delete {
+            display: none;
+        }
+        
+        .done {
+            background-color: green;
+            border-radius: 10px;
+            text-decoration: line-through;
+            line-height: 2;
+            height: 40px;
+        }
+        
+        li {
+            list-style: none;
+            padding: 10px 0px;
+            color: #ffffff;
+            text-transform: capitalize;
+            font-weight: 600;
+            border: 2px solid #025f70;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            background: #4EB9CD;
+            transition: all 0.75s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5 ease;
+            margin-top: 9px;
+            margin-right: 35px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        ul {
+            margin: auto;
+            width: 100%;
+            display: contents;
+        }
+        
+        li>button {
+            font-weight: normal;
+            float: right;
+            color: #025f70;
+            border-radius: 10px;
+            width: 61px;
+            height: 26px;
+            margin-inline: 2px;
+        }
+        
+        h4 {
+            display: inline;
+            padding-left: 10px;
+        }
+        
+        div {
+            color: honeydew;
+        }
